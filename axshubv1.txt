@@ -1606,7 +1606,7 @@ arosia.MouseButton1Click:Connect(function()
 
 local Achromatic = Instance.new("TextButton")
 Achromatic.Name = "Achromatic"
-Achromatic.Parent = Reanimations
+Achromatic.Parent = scriptframe21
 Achromatic.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Achromatic.BorderSizePixel = 0
 Achromatic.Position = UDim2.new(0, 0, 0, 0)
@@ -1620,11 +1620,3 @@ Achromatic.MouseButton1Click:Connect(function()
 
 	loadstring(game:HttpGet("https://pastebin.com/raw/xy4uqyMN"))()
 	end)
-
-
-wait(0.1)
-game.StarterGui:SetCore("SendNotification", {
-Title = "SERVER";
-Text = "Loaded AXS Hub.."; 
-Duration = 6;
-})
